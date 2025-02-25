@@ -1,16 +1,15 @@
 {
-  "name": "new-folder-(2)",
+  "name": "telegram-news-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Telegram bot that provides top Indian news headlines with images.",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "node-telegram-bot-api": "^0.66.0"
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "node-telegram-bot-api": "^0.61.0"
   }
 }
