@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
 
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = '7427344544:AAEvwrF4_i1CmKI2nRANnRAoBJeld0MkM9A';
 const bot = new TelegramBot(token, { polling: true });
 const app = express();
 
