@@ -16,7 +16,7 @@ const users = {}; // User usage tracking
 // Function to fetch top news from News API
 async function getTopNews() {
     try {
-        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=YOUR_NEWSAPI_KEY`);
+        const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=7fde200620b74ecb82dfa34a9f5a6d83`);
         const articles = response.data.articles.slice(0, 5);
         return articles.map(article => ({
             title: article.title,
